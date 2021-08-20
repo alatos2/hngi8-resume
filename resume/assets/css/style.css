@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 span {
   /* color: #fff; */
   color: black;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #435F87;
   /* border-bottom: 2px solid #18d26e; */
   padding-bottom: 6px;
 }
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .social-links a:hover {
   /* background: #18d26e; */
-  background: blue;
+  background: #435F87;
 }
 
 @media (max-width: 992px) {
@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: blue;
+  background-color: #435F87;
   /* background-color: #18d26e; */
   visibility: hidden;
   width: 0px;
@@ -370,7 +370,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: blue;
+  background: #435F87;
   /* background: #4ceb95; */
   margin: 4px 10px;
 }
@@ -392,7 +392,7 @@ section .container {
   font-weight: 700;
   font-size: 26px;
   /* color: #18d26e; */
-  color: blue;
+  color: #435F87;
 }
 
 .about-me .content ul {
@@ -413,7 +413,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: blue;
+  color: #435F87;
   /* color: #18d26e; */
   line-height: 0;
 }
@@ -446,7 +446,7 @@ section .container {
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
   /* color: #18d26e; */
-  color: blue;
+  color: #435F87;
   border-radius: 50px;
   line-height: 0;
 }
@@ -499,7 +499,7 @@ section .container {
   height: 10px;
   transition: .9s;
   /* background-color: #18d26e; */
-  background-color: blue;
+  background-color: #435F87;
 }
 
 /*--------------------------------------------------------------
@@ -631,7 +631,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: blue;
+  color: #435F87;
   /* color: #18d26e; */
   margin-bottom: 10px;
 }
@@ -665,9 +665,9 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: blue;
+  background: #435F87;
   /* background: #18d26e; */
-  border: 2px solid blue;
+  border: 2px solid #435F87;
   /* border: 2px solid #18d26e; */
 }
 
@@ -991,7 +991,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: blue;
+  color: #435F87;
   /* color: #18d26e; */
   border-radius: 50%;
   padding: 14px;
@@ -1029,7 +1029,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: blue;
+  color: #435F87;
   /* color: #18d26e; */
 }
 
@@ -1054,7 +1054,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: blue;
+  background: #435F87;
   /* background: #18d26e; */
   text-align: center;
   padding: 15px;
@@ -1075,7 +1075,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid blue;
+  border: 3px solid #435F87;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1119,7 +1119,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: blue;
+  background: #435F87;
   /* background: #18d26e; */
   border: 0;
   padding: 10px 30px;
@@ -1129,7 +1129,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: blue;
+  background: #435F87;
   /* background: #15bb62; */
 }
 
