@@ -9,6 +9,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -101,7 +105,7 @@
             </div>
           </div>
           <p>
-            I have worked with Netrix and Politrix Technologies as a dot net developer. I had 2-3 bootcamps with Andela majorly focused on NodeJS. I currently work as a webmaster in Covenant University. Recently, I concluded an internship training in NodeJS (backend) with Zuri <br><img src="assets/img/zuri.png" width="400" height="70">
+            I have worked with Netrix and Politrix Technologies as a dot net developer. I had 2-3 bootcamps with Andela majorly focused on NodeJS. I currently work as a webmaster in Covenant University. Recently, I concluded an internship training in NodeJS (backend) with Zuri <img src="assets/img/zuri.png" width="400" height="70">
           </p>
         </div>
       </div>
@@ -364,11 +368,11 @@
       </form>  -->
 
       <form action="/send" method="POST"> <br>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="text" name="email" placeholder="Your Email" required>
-        <input type="text" name="subject" placeholder="Subject" required>
-        <input type="text" name="message" placeholder="Message" required>
-        <button type="submit">Send Message</button>
+        <input type="text" class="form-control" name="name" placeholder="Your Name" required><br>
+        <input type="email" class="form-control" name="email" placeholder="Your Email" required><br>
+        <input type="text" class="form-control" name="subject" placeholder="Subject" required><br>
+        <textarea type="text" class="form-control" name="message" rows="5" placeholder="Message" required></textarea><br>
+        <button type="submit" class="btn btn-primary">Send Message</button>
       </form>
 
     </div>
