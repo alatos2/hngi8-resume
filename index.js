@@ -46,6 +46,6 @@ app.post('/send', (req, res) => {
     res.render('success.ejs');
 });
 
-const PORT = process.env.port || 8000
+const port = process.env.PORT || 8000
 
-app.listen(PORT, () => console.info(`App running on port ${PORT}`));
+app.listen(port, () => console.info(`App running on port ${PORT}`));
